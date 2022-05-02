@@ -1,0 +1,41 @@
+h1 = big and bold heading
+h2 = less bigger and bold than h1
+h1..h6
+to create a simple text = createElement()
+to create a input box = createInput()
+to create a button = createButton()
+inside the box the by default text is called placeholder
+
+
+
+/*how to create the index.html database*/
+
+step 1 => check the version like 9.6.11, 8.4.
+<script src="https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.11/firebase-database.js"></script>
+
+step 2
+  <script> 
+  const firebaseConfig = {
+    apiKey: "AIzaSyC826kipCekPOFfSFWrLwxOLRjhuH-kgyU",
+    authDomain: "quiz-b8ebc.firebaseapp.com",
+    databaseURL: "https://quiz-b8ebc-default-rtdb.firebaseio.com",
+    projectId: "quiz-b8ebc",
+    storageBucket: "quiz-b8ebc.appspot.com",
+    messagingSenderId: "718836623478",
+    appId: "1:718836623478:web:1deb30472846657a3b5757"
+  };
+  firebase.initializeApp(firebaseConfig);
+  </script>
+
+
+
+    step 1 => going from teh game database to the firebase database
+   var gameStateRef = database.ref("gameState")
+
+   allPlayers is an array of all players
+
+   //creating an arrow function
+   () => {
+     
+   }
